@@ -121,7 +121,7 @@ MonoBehaviour:
   respawnHealthPoints: 1
   numberOfLives: 1
   isAlive: 1
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 175920, guid: 4272e9e6d75a3489685953cdd2b535d4, type: 2}
   onLivesGone: 1
   LevelToLoad: 
 --- !u!114 &11497058
@@ -140,16 +140,24 @@ MonoBehaviour:
   damageOnCollision: 1
   continuousDamage: 0
   continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
+  destroySelfOnImpact: 1
   delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 175920, guid: 4272e9e6d75a3489685953cdd2b535d4, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: explosionPrefab
+      value: 
+      objectReference: {fileID: 175920, guid: 4272e9e6d75a3489685953cdd2b535d4, type: 2}
+    - target: {fileID: 0}
+      propertyPath: destroySelfOnImpact
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 195278}

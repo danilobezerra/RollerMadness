@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 175920, guid: c34a76075af6e4feb927965ea43f45ee, type: 2}
 --- !u!114 &11496478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123,7 +123,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: explosionPrefab
+      value: 
+      objectReference: {fileID: 175920, guid: c34a76075af6e4feb927965ea43f45ee, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 110410}
